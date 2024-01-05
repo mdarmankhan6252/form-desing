@@ -4,8 +4,12 @@
    box-sizing: border-box;
    font-family: sans-serif;
 }
-body{
-   background-color:#4070F4 ;
+.banner{
+   width: 100%;
+   height: 100vh;
+   background-image: url(banner.jpg);
+   background-position: center;
+   background-size: cover;
 }
 form{
    width: 350px;
