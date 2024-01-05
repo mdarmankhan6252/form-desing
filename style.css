@@ -30,7 +30,7 @@ form h2::after{
    background-color: #4070F4;
    margin-bottom: 30px;
 }
-form input{
+form .input{
    width: 100%;
    padding: 15px 10px;
    border: none;
@@ -46,4 +46,26 @@ input[type='button']{
    background-color: #4070F4;
    color: #fff;
    padding: 10px 0;
+   cursor: pointer;
+}
+
+.checkbox{
+ display: flex;
+ align-items: center;
+ padding: 10px 0 20px;
+}
+.checkbox small{
+   padding-left: 5px;
+   color: #434242;
+   font-size: 14px;
+}
+.footer{
+   font-size: 15px;
+   color: #434242;
+   text-align: center;
+}
+.footer a{
+   color: #4070F4;
+   text-decoration: none;
+   padding-left: 5px;
 }
